@@ -41,7 +41,7 @@ const Register = () => {
                 Register now<div className="dot"></div>
               </button>
             </a>
-            <a className ="handbook"href="#"target="_blank">ElectroCombat Handbook</a>
+            <a className ="handbook"href="http//:" target="_blank">ElectroCombat Handbook</a>
           </li>
         </div>
       </motion.div>
