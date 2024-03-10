@@ -9,6 +9,7 @@ import useMediaQuery from "./hooks/useMediaQuery";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import AboutCombat from "./scenes/About-combat";
+import Timeline from "./scenes/Timeline";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -82,7 +83,15 @@ function App() {
         </motion.div>
       </div>
       {/* <LineGradient/> */}
-      
+      <div className="w-5/6 mx-auto md:h-full">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("timeline")}
+        >
+          <Timeline/>
+        </motion.div>
+      </div>
       {/* <LineGradient/> */}
       <div className="w-5/6 mx-auto md:h-full">
         <motion.div
