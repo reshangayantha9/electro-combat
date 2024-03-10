@@ -18,15 +18,6 @@ const SocialMediaIcons = () => {
       >
         <img alt="facebook-link" src="../assets/facebook.png" />
       </a>
-      <a
-        className="hover:opacity-50 transition duration-500"
-        href="http//:"
-        // target="_blank"
-        rel="noreferrer"
-        download
-      >
-        <img alt="pdf-link" src="../assets/pdf.png" />
-      </a>
     </div>
   );
 };

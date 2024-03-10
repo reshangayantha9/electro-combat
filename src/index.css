@@ -26,7 +26,7 @@ body {
 .handbook{
     margin: 10px 0;
     font-size: 18px;
-    color:rgba(66, 33, 251, 1) !important;
+    color: #22d3d6f7!important;
     font-weight: bold;
 }
 .contact-title{
@@ -34,6 +34,18 @@ body {
     margin: 10px 0;
     color: #22d3d6f7!important;
     font-weight: 900;
+}
+.contact-wrap{
+  display: flex;
+  width:50%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.contact-name{
+  font-size: 20px;
+  font-weight: bold;
 }
 .skills_section {
   width: 100%;
@@ -192,6 +204,14 @@ body {
     /* grid-row-gap: 30px;
     grid-column-gap: 50px; */
   }
+  .contact-wrap{
+    display: block;
+    width: 100%;
+  }
+  .contact-body{
+    margin-bottom: 20px;
+  }
+  
 }
 .custom-btn {
   margin-top: 40px;
@@ -210,6 +230,8 @@ body {
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
+  font-size: 25px;
+  font-weight: bold;
 }
 /* 11 */
 .btn-11 {
@@ -548,7 +570,7 @@ body {
 
 }
 
-@media screen and (min-width: 400px ?? max-width: 660px) {
+@media screen and ( max-width: 660px) {
 
 .direction-l .desc,
 .direction-r .desc {
@@ -556,8 +578,6 @@ body {
 }
 
 }
-
-
 
 
 

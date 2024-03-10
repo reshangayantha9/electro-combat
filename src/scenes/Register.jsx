@@ -67,14 +67,15 @@ const Register = () => {
       >
         <div className="w-full mx-auto relative  text-center ">
           <li className="my-8 first:mt-0 last:mb-0 w-[60%]mx-auto flex flex-col justify-center items-center ">
+          <a className="handbook mb-2" href="http//:" target="_blank">
+              ElectroCombat Design Rules
+            </a>
             <a href="https://tripetto.app/run/AOPVV00112">
               <button className="custom-btn btn-11">
                 Register now<div className="dot"></div>
               </button>
             </a>
-            <a className="handbook" href="http//:" target="_blank">
-              ElectroCombat Handbook
-            </a>
+            
           </li>
         </div>
       </motion.div>
