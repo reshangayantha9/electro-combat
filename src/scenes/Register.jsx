@@ -68,7 +68,7 @@ const Register = () => {
         <div className="w-full mx-auto relative  text-center ">
           <li className="my-8 first:mt-0 last:mb-0 w-[60%]mx-auto flex flex-col justify-center items-center ">
             <p className="contact-title">Please read robot design rules before applying</p>
-          <a href="https://drive.google.com/file/d/1V8MnkGbcIjkeDdJmwlQ3NXtdEubKeuwj/view?usp=sharing" target="_blank">
+          <a href="https://drive.google.com/file/d/1V8MnkGbcIjkeDdJmwlQ3NXtdEubKeuwj/view?usp=sharing" target="_blank"rel="noopener noreferrer">
               <button className="custom-btn btn-11 !text-sm !w-[180px] !h-[40px] !shadow-none">
               Robot design rules<div className="dot"></div>
               </button>
