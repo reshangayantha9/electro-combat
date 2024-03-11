@@ -1,4 +1,4 @@
-import SocialMediaIcons from "../components/SocialMediaIcons";
+
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
@@ -102,7 +102,6 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <SocialMediaIcons />
         </motion.div>
       </div>
     </section>

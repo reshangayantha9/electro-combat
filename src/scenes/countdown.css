@@ -1,6 +1,6 @@
 .countdown-container {
     min-height: 300px;
-    margin: 10px auto;
+    margin: 0 auto;
     gap: 80px;
     width: 100%;
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
@@ -13,6 +13,7 @@
   
   .countdown-values {
     display: flex;
+    
   }
   
   .big-text {
@@ -26,6 +27,9 @@
     width: 120px;
     margin: 10px 20px;
     text-align: center;
+    box-shadow: 0px 0px 14px 2px #21ccd0;
+    padding: 10px;
+    border-radius: 10px;
   }
   
   .countdown-value span {

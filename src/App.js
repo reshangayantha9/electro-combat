@@ -10,6 +10,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import AboutCombat from "./scenes/About-combat";
 import Timeline from "./scenes/Timeline";
+import Awards from "./scenes/Awards";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -83,6 +84,15 @@ function App() {
         </motion.div>
       </div>
       {/* <LineGradient/> */}
+      <div className="w-5/6 mx-auto ">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("aboutCombat")}
+        >
+          <Awards/>
+        </motion.div>
+      </div>
       <div className="w-5/6 mx-auto md:h-full">
         <motion.div
           margin="0 0 -200px 0"

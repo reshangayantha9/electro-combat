@@ -67,8 +67,11 @@ const Register = () => {
       >
         <div className="w-full mx-auto relative  text-center ">
           <li className="my-8 first:mt-0 last:mb-0 w-[60%]mx-auto flex flex-col justify-center items-center ">
-          <a className="handbook mb-2" href="http//:" target="_blank">
-              ElectroCombat Design Rules
+            <p className="contact-title">Please read robot design rules before applying</p>
+          <a href="https://tripetto.app/run/AOPVV00112">
+              <button className="custom-btn btn-11 !text-sm !w-[180px] !h-[40px] !shadow-none">
+              Robot design rules<div className="dot"></div>
+              </button>
             </a>
             <a href="https://tripetto.app/run/AOPVV00112">
               <button className="custom-btn btn-11">

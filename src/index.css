@@ -16,7 +16,7 @@ body {
   overflow-x: hidden;
 }
 .bg-red {
-  background-color: rgba(116, 125, 136, 0.2) !important;
+  background-color: #010021 !important;
 }
 .text-red {
     font-family: 'russo one';
@@ -211,6 +211,8 @@ body {
   .contact-body{
     margin-bottom: 20px;
   }
+  
+  
   
 }
 .custom-btn {

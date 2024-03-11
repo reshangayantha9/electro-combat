@@ -8,7 +8,7 @@ module.exports = {
         "deep-blue": "#010026",
         blue: "#2CBCE9",
         red: "#DC4492",
-        yellow: "#FDCC49",
+        yellow: "#22d3d6f7",
         grey: "#ededed",
         "dark-grey": "#757575",
         "opaque-black": "rgba(0,0,0,0.35)",
@@ -22,8 +22,8 @@ module.exports = {
           "circularLight":'repeating-radial-gradient(rgba(255,255,255,0.4)2px,#010026 5px,#010026 100px)',
       }),
       fontFamily: {
-        playfair: ["Playfair Display", "serif"],
-        opensans: ["Open Sans", "sans-serif"],
+        playfair: ["russo one", "sans-serif"],
+        opensans: ["Poppins", "sans-serif"],
       },
       content: {
         brush: "url('./assets/brush.png')",
