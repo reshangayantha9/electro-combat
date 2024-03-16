@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="contact py-48 flex flex-col justify-center items-center"
+      className="contact py-20 flex flex-col justify-center items-center"
     >
       <div className="md:flex  md:justify-between md:gap-16">
         <motion.div
@@ -60,11 +60,29 @@ const Contact = () => {
             </span>
             <br />
             <span className="text-xl">Organized By</span>
-            <br />
+           
+          <br />
             <span>
               Mechatronics Technology Students Society of University of Sri
               Jayewardenepura
             </span>
+            <br />
+            <div className="mt-5 flex items-center justify-center gap-10">
+            <div className="usjp">
+            <img
+              alt="profile"
+              className="w-full max-w-[100px] md:max-w-[150px] shadow-lg rounded-full max-w-full h-auto align-middle border-none"
+              src="assets/usjp.png"
+            />
+            </div>
+            <div className="usjp">
+            <img
+              alt="profile"
+              className="w-full max-w-[100px] md:max-w-[150px] shadow-lg rounded-full max-w-full h-auto align-middle border-none"
+              src="assets/mecha.png"
+            />
+            </div>
+          </div>
           </li>
         </div>
       </motion.div>

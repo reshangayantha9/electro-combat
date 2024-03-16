@@ -38,7 +38,7 @@ function Awards() {
         >
           <div className="w-full mx-auto relative text-left ">
             <li className="my-8 first:mt-0 last:mb-0 w-[60%]mx-auto flex flex-col justify-center items-center ">
-              <h3 className="capitalize font-bold text-2xl">  1st Place - 120, 000 </h3>
+              <h3 className="capitalize font-bold text-2xl">  1st Place - 100, 000 </h3>
               
               
             </li>
