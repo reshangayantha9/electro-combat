@@ -71,14 +71,14 @@ const Contact = () => {
             <div className="usjp">
             <img
               alt="profile"
-              className="w-full max-w-[100px] md:max-w-[150px] shadow-lg rounded-full max-w-full h-auto align-middle border-none"
+              className="w-full !max-w-[100px] md:!max-w-[150px] shadow-lg rounded-full max-w-full h-auto align-middle border-none"
               src="assets/usjp.png"
             />
             </div>
             <div className="usjp">
             <img
               alt="profile"
-              className="w-full max-w-[100px] md:max-w-[150px] shadow-lg rounded-full max-w-full h-auto align-middle border-none"
+              className="w-full !max-w-[100px] md:!max-w-[150px] shadow-lg rounded-full max-w-full h-auto align-middle border-none"
               src="assets/mecha.png"
             />
             </div>
