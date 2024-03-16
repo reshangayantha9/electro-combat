@@ -18,7 +18,7 @@ module.exports = {
           "linear-gradient(81.66deg, #00B5EE 7.21%, #FF45A4 45.05%, #FFBA00 78.07%)",
 
         "gradient-rainblue":
-          "linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%)",
+          "linear-gradient(90deg, #2582B5 14.53%, #0098FF 69.36%, #00366E 117.73%)",
           "circularLight":'repeating-radial-gradient(rgba(255,255,255,0.4)2px,#010026 5px,#010026 100px)',
       }),
       fontFamily: {

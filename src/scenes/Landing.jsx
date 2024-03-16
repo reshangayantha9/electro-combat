@@ -46,7 +46,7 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <p className="text-6xl font-playfair z-10 !text-center md:text-start">
-            Electro {""} Combat <br /> Robot Battle 24'
+            Electro {""} Combat 
             {/* <span
               className="xs:relative s:text-deep-blue s:font-semibold z-15 xs:before:content-brush
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
@@ -54,23 +54,8 @@ const Landing = ({ setSelectedPage }) => {
               Combat
             </span> */}
           </p>
-          <div className="mt-5 flex items-center justify-center gap-5">
-            <div className="usjp">
-            <img
-              alt="profile"
-              className="w-full max-w-[75px] md:max-w-[50px] shadow-lg rounded-full max-w-full h-auto align-middle border-none"
-              src="assets/usjp.png"
-            />
-            </div>
-            <div className="usjp">
-            <img
-              alt="profile"
-              className="w-full max-w-[75px] md:max-w-[50px] shadow-lg rounded-full max-w-full h-auto align-middle border-none"
-              src="assets/mecha.png"
-            />
-            </div>
-          </div>
-          <p className="mt-1 mb-7 text-sm !text-center md:text-start">
+          <div className="text-4xl !text-center">Robot Battle <br /> 2024</div>
+          <p className="mt-5 mb-7 text-sm !text-center md:text-start">
           Organized by Mechatronics Technology Students Society of University of Sri Jayewardenepura.
           </p>
         </motion.div>
