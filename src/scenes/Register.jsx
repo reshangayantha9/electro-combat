@@ -5,7 +5,7 @@ import "../index.css";
 import "./countdown.css";
 
 const Register = () => {
-  const inputDate="27 MARCH 2024";
+  const inputDate="20 April 2024";
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
