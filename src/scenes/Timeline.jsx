@@ -53,7 +53,7 @@ const Timeline = () => {
                     
                   </div>
                   <div className="desc">
-                  20th OF APRIL
+                  30th OF APRIL
                   </div>
                 </div>
               </li>
@@ -62,7 +62,7 @@ const Timeline = () => {
                   <div className="flag-wrapper">
                     <span className="flag">Awareness Session 1 </span>
                   </div>
-                  <div className="desc">APRIL 1ST WEEKEND</div>
+                  <div className="desc">21st OF APRIL</div>
                 </div>
               </li>
               <li>
