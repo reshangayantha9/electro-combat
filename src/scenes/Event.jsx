@@ -16,7 +16,7 @@ function Event() {
         }}
       >
         <div className="md:w-[50%]">
-            <img src="assets/session1.jpg" alt="" srcset="" className='w-[100%] '/>
+            <img src="assets/session1.jpg" alt="" srcset="" className='w-[100%] md:mt-14'/>
         </div>
       </motion.div>
         <a href="https://"target="_blank"rel="noopener noreferrer" className='text-center'>
