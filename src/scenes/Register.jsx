@@ -120,6 +120,7 @@ const Register = () => {
           </li>
         </div>
       </motion.div>
+      
     </section>
   );
 };

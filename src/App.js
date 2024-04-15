@@ -11,6 +11,7 @@ import { motion } from "framer-motion";
 import AboutCombat from "./scenes/About-combat";
 import Timeline from "./scenes/Timeline";
 import Awards from "./scenes/Awards";
+import Event from "./scenes/Event";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -60,6 +61,15 @@ function App() {
           onViewportEnter={() => setSelectedPage("register")}
         >
           <Register/>
+        </motion.div>
+      </div>
+      <div className="w-5/6 mx-auto ">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("register")}
+        >
+          <Event/>
         </motion.div>
       </div>
       {/* <LineGradient/> */}
