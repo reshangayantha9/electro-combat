@@ -26,13 +26,13 @@ function Event() {
         AWARENESS <span className="text-red">SESSION 1</span>
       </p>
       <LineGradient width="w-1/3" />
-      <p className="font-playfair font-semibold text-base mt-10 uppercase ">
+      <p className="font-playfair font-semibold text-base mt-10 uppercase md:leading-normal leading-relaxed">
         <span className="text-2xl">
           topic : Best Practices in Battlebot design
-        </span>{" "}
+        </span>
         <br />
-        date : 21st April 2024 <br />
-        time : 6.00 P.M. Onwards
+        date : 21<sup>st</sup> April 2024 <br />
+        time : 6.00 PM Onwards
       </p>
       <div className="flex justify-between items-center flex-col">
         <motion.div
