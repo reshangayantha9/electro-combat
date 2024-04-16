@@ -28,10 +28,10 @@ function Event() {
       <LineGradient width="w-1/3" />
       <p className="font-playfair font-semibold text-base mt-10 uppercase md:leading-normal leading-relaxed">
         <span className="text-2xl">
-          topic : Best Practices in Battlebot design
+          topic : How to make a battlebot
         </span>
         <br />
-        date : 21<sup>st</sup> April 2024 <br />
+        date : 21<sup className="lowercase">st</sup> April 2024 <br />
         time : 6.00 PM Onwards
       </p>
       <div className="flex justify-between items-center flex-col">
