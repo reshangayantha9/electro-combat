@@ -10,13 +10,12 @@ function Event() {
   useEffect(() => {
     const checkDateTime = () => {
       const currentDate = new Date();
-      // eslint-disable-next-line
       setIsEnabled(currentDate >= targetDateTime);
     };
     checkDateTime();
     const intervalId = setInterval(checkDateTime, 1000);
     return () => clearInterval(intervalId);
-  }, []);
+  });
   useEffect(() => {
     console.log("isEnabled:", isEnabled);
   }, [isEnabled]);
