@@ -41,7 +41,7 @@ const Timeline = () => {
               <li>
                 <div className="direction-r">
                   <div className="flag-wrapper">
-                    <span className="flag">Registrations Open</span>
+                    <span className="flag" style={{display:'flex',alignItems:'center',gap:'15px'}}>Registrations Open<img src="assets/check.png" alt="" /> </span>
                   </div>
                   <div className="desc">11th OF MARCH</div>
                 </div>
@@ -53,14 +53,14 @@ const Timeline = () => {
                     
                   </div>
                   <div className="desc">
-                  30th OF APRIL
+                  20th OF MAY
                   </div>
                 </div>
               </li>
               <li>
                 <div className="direction-r">
                   <div className="flag-wrapper">
-                    <span className="flag">Awareness Session 1 </span>
+                    <span className="flag"style={{display:'flex',alignItems:'center',gap:'15px'}}>Awareness Session 1 <img src="assets/check.png" alt="" /></span>
                   </div>
                   <div className="desc">21st OF APRIL</div>
                 </div>

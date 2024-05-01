@@ -27,9 +27,7 @@ function Event() {
       </p>
       <LineGradient width="w-1/3" />
       <p className="font-playfair font-semibold text-base mt-10 uppercase md:leading-normal leading-relaxed">
-        <span className="text-2xl">
-          topic : How to make a battlebot
-        </span>
+        <span className="text-2xl">topic : How to make a battlebot</span>
         <br />
         date : 21<sup className="lowercase">st</sup> April 2024 <br />
         time : 6.00 PM Onwards
@@ -55,34 +53,10 @@ function Event() {
             />
           </div>
         </motion.div>
-        {isEnabled ? (
-          <button
-            className="custom-btn btn-11 !text-sm !w-[180px] !h-[40px] !shadow-none"
-          >
-            <a
-              href="https://learn.zoom.us/j/94058856053?pwd=T3AzQjBUU29uOVdFTjdrc3dUZUFJQT09"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`text-center`}
-            >
-              Join via zoom<div className="dot"></div>
-            </a>
-          </button>
-        ) : (
-          <button
-            className="custom-btn btn-11 !text-sm !w-[180px] !h-[40px] !shadow-none"
-          >
-            Join via zoom<div className="dot"></div>
-          </button>
-        )}
-        {isEnabled ? (
-          <p className="mt-5 text-center">
-            Meeting ID: 940 5885 6053 <br />
-            Passcode: 6La2x*=H
-          </p>
-        ) : (
-          ""
-        )}
+
+        <button className="custom-btn btn-11 !text-sm !w-[180px] !h-[40px] !shadow-none">
+          Watch now<div className="dot"></div>
+        </button>
       </div>
     </div>
   );
