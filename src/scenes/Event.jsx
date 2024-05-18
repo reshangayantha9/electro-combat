@@ -53,10 +53,10 @@ function Event() {
             />
           </div>
         </motion.div>
-
+        <a href="https://www.youtube.com/watch?v=miitzwbSJc8&t=2s"target="_blank"rel="noopener noreferrer">
         <button className="custom-btn btn-11 !text-sm !w-[180px] !h-[40px] !shadow-none">
           Watch now<div className="dot"></div>
-        </button>
+        </button></a>
       </div>
     </div>
   );
