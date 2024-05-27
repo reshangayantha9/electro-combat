@@ -5,7 +5,7 @@ import "../index.css";
 import "./countdown.css";
 
 const Register = () => {
-  const inputDate="28 May 2024";
+  const inputDate="05 JUNE 2024";
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
@@ -68,7 +68,7 @@ const Register = () => {
         <div className="w-full mx-auto relative  text-center ">
           <li className="my-8 first:mt-0 last:mb-0 w-[60%]mx-auto flex flex-col justify-center items-center ">
             <p className="contact-title">Please read robot design rules before applying</p>
-          <a href="https://drive.google.com/file/d/115c4magzvYkgiCPOM0G2N9IpNBc74iPp/view?usp=sharing" target="_blank"rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1yWtWE_OyTmsIHPiIu_jdzZf9muKP02NV/view?usp=sharing" target="_blank"rel="noopener noreferrer">
               <button className="custom-btn btn-11 !text-sm !w-[180px] !h-[40px] !shadow-none">
               Robot design rules<div className="dot"></div>
               </button>

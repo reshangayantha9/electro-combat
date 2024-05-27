@@ -53,7 +53,7 @@ const Timeline = () => {
                     
                   </div>
                   <div className="desc">
-                  28th OF MAY
+                  05th OF JUNE
                   </div>
                 </div>
               </li>
