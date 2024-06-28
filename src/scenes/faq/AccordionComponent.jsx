@@ -53,16 +53,16 @@ export default function AccordionComponent() {
       {panels.map((panel, index) => (
         <Accordion className="accordion-item" key={index}>
           <AccordionSummary
-            expandIcon={<ArrowDropDownIcon />}
+            expandIcon={<ArrowDropDownIcon color='white'/>}
             aria-controls={`panel${index}-content`}
             id={`panel${index}-header`}
             className="panel"
           >
             <Typography>{panel.label}</Typography>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails className="details">
             <Typography>
-              {panel.content}
+            &#x2022;{" "}{panel.content}
             </Typography>
           </AccordionDetails>
         </Accordion>
