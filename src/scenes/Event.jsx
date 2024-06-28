@@ -22,7 +22,7 @@ function Event() {
 
   return (
     <div className=" mt-[70px]">
-      <p className="font-playfair font-semibold text-4xl mb-3">
+      <p className="font-playfair font-semibold text-4xl md:mt-72 mb-3">
         AWARENESS <span className="text-red">SESSION 1</span>
       </p>
       <LineGradient width="w-1/3" />

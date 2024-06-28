@@ -49,7 +49,7 @@ const Timeline = () => {
               <li>
                 <div className="direction-l">
                   <div className="flag-wrapper">
-                    <span className="flag">Registrations Close</span>
+                    <span className="flag"style={{display:'flex',alignItems:'center',gap:'15px'}}>Registrations Close<img src="assets/check.png" alt="" /></span>
                     
                   </div>
                   <div className="desc">
@@ -72,7 +72,7 @@ const Timeline = () => {
                     
                   </div>
                   <div className="desc">
-                  MAY 2024
+                  JULY 2024
                   </div>
                 </div>
               </li>
@@ -81,7 +81,7 @@ const Timeline = () => {
                   <div className="flag-wrapper">
                     <span className="flag">Event Date </span>
                   </div>
-                  <div className="desc">JUNE 2024</div>
+                  <div className="desc">JULY 2024</div>
                 </div>
               </li>
             </ul>
