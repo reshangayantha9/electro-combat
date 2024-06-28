@@ -1,12 +1,12 @@
 .accordion-item {
   margin-bottom: 1rem;
-  background-color: #010021;
-  color: white;
+  background-color: #010021!important;
+  color: white!important;
 }
 .panel{
-  color: wheat;
-  border-bottom:1px solid #02011a ;
+  color: white!important;
+  border-bottom:1px solid #02011a!important ;
 }
 .css-i4bv87-MuiSvgIcon-root{
-  color:white
+  color:white!important
 }
