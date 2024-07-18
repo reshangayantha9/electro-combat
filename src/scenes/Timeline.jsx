@@ -81,7 +81,7 @@ const Timeline = () => {
                   <div className="flag-wrapper">
                     <span className="flag">Event Date </span>
                   </div>
-                  <div className="desc">JULY 2024</div>
+                  <div className="desc">AUGUST 2024</div>
                 </div>
               </li>
             </ul>

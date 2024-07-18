@@ -28,7 +28,7 @@ const panels = [
     content: 'Yes, tables with electric power supplies will be provided at the service area. But you have to bring additional power extensions. '
   },
   {
-    label: 'Can we know more details about the arena, such as the type of arena? we would like to know about the marking criteria',
+    label: 'Can we know more details about the arena, such as the type of arena? we would like to know about the marking criteria?',
     content: 'All the arena details and marking criteria describe in the Tournament rule document.'
   },
   {
@@ -37,7 +37,7 @@ const panels = [
   },
   {
     label: 'Accommodation details?',
-    content: 'NO accommodation facility provided.'
+    content: 'No accommodation facility provided.'
   },
 ];
 
