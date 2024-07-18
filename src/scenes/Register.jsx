@@ -84,7 +84,7 @@ const Register = () => {
               rel="noopener noreferrer"
             >
               <button className="custom-btn btn-11 !text-sm !w-[180px] !h-[40px] !shadow-none">
-                Robot tournament rules<div className="dot"></div>
+                Tournament rules<div className="dot"></div>
               </button>
               
             </a>
