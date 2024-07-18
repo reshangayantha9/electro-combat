@@ -73,7 +73,7 @@ const Register = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="custom-btn btn-11 !text-sm !w-[180px] !h-[40px] !shadow-none">
+              <button className="custom-btn btn-11 !text-base !w-[180px] !h-[40px] !shadow-none">
                 Robot design rules<div className="dot"></div>
               </button>
               
@@ -83,7 +83,7 @@ const Register = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="custom-btn btn-11 !text-sm !w-[180px] !h-[40px] !shadow-none">
+              <button className="custom-btn btn-11 !text-base !w-[180px] !h-[40px] !shadow-none">
                 Tournament rules<div className="dot"></div>
               </button>
               
