@@ -1,38 +1,38 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 // import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 import "../index.css";
 import "./countdown.css";
 
 const Register = () => {
-  // const inputDate = "06 JUNE 2024";
-  // const [days, setDays] = useState(0);
-  // const [hours, setHours] = useState(0);
-  // const [minutes, setMinutes] = useState(0);
-  // const [seconds, setSeconds] = useState(0);
+  const inputDate = "03 AUGUST 2024";
+  const [days, setDays] = useState(0);
+  const [hours, setHours] = useState(0);
+  const [minutes, setMinutes] = useState(0);
+  const [seconds, setSeconds] = useState(0);
   // const [inputDate, setInputDate] = useState("25 MARCH 2024");
-  // const [currentDate, setCurrentDate] = useState(inputDate);
+  const [currentDate, setCurrentDate] = useState(inputDate);
 
-  // useEffect(() => {
-    // const intervalId = setInterval(() => {
-    //   setCurrentDate(new Date());
-    // }, 1000);
-    // return () => clearInterval(intervalId);
-  // }, []);
-  // useEffect(() => {
-  //   const changingDate = new Date(inputDate);
-  //   const currentDate = new Date();
-  //   const totalSeconds = (changingDate - currentDate) / 1000;
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentDate(new Date());
+    }, 1000);
+    return () => clearInterval(intervalId);
+  }, []);
+  useEffect(() => {
+    const changingDate = new Date(inputDate);
+    const currentDate = new Date();
+    const totalSeconds = (changingDate - currentDate) / 1000;
 
-  //   setDays(formatTime(Math.floor(totalSeconds / 3600 / 24)));
-  //   setHours(Math.floor(totalSeconds / 3600) % 24);
-  //   setMinutes(Math.floor(totalSeconds / 60) % 60);
-  //   setSeconds(Math.floor(totalSeconds % 60));
-  // }, [inputDate, currentDate]);
+    setDays(formatTime(Math.floor(totalSeconds / 3600 / 24)));
+    setHours(Math.floor(totalSeconds / 3600) % 24);
+    setMinutes(Math.floor(totalSeconds / 60) % 60);
+    setSeconds(Math.floor(totalSeconds % 60));
+  }, [inputDate, currentDate]);
 
-  // function formatTime(time) {
-  //   return time < 10 ? `0${time}` : time;
-  // }
+  function formatTime(time) {
+    return time < 10 ? `0${time}` : time;
+  }
 
   return (
     <section id="sessions" className="mt-32">
@@ -108,11 +108,11 @@ const Register = () => {
         }}
       >
         <div className="w-full mx-auto relative  text-center ">
-          {/* <p className="contact-title uppercase !text-[40px]">
-            Registrations Closing in
-          </p> */}
+          <p className="contact-title uppercase !text-[40px]">
+          Get Ready to Battle
+          </p>
           <li className="my-8 first:mt-0 !mt-0 last:mb-0 w-[60%]mx-auto flex flex-col justify-center items-center ">
-            {/* <div className="countdown-container">
+            <div className="countdown-container">
               <div className="countdown-values count-wrap">
                 
                 <div className="countdown-value">
@@ -132,7 +132,7 @@ const Register = () => {
                   <span>seconds</span>
                 </div>
               </div>
-            </div> */}
+            </div>
             <div class="video-container">
               <iframe
                 src="https://www.youtube.com/embed/z8fnuDem89w?si=76zrgXOjuu9mxcJ8"
