@@ -55,7 +55,7 @@ function App() {
       </div>
       
       {/* <LineGradient /> */}
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto ">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -68,7 +68,7 @@ function App() {
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
-          onViewportEnter={() => setSelectedPage("register")}
+          onViewportEnter={() => setSelectedPage("")}
         >
           <Event/>
         </motion.div>
