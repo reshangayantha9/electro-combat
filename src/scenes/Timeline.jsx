@@ -68,18 +68,7 @@ const Timeline = () => {
               <li>
                 <div className="direction-l">
                   <div className="flag-wrapper">
-                    <span className="flag">Awareness Session 2 </span>
-                    
-                  </div>
-                  <div className="desc">
-                  JULY 2024
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="direction-r">
-                  <div className="flag-wrapper">
-                    <span className="flag">Event Date </span>
+                    <span className="flag"style={{display:'flex',alignItems:'center',gap:'15px'}}>Event Date<img src="assets/check.png" alt="" /> </span>
                   </div>
                   <div className="desc">3rd OF AUGUST</div>
                 </div>
