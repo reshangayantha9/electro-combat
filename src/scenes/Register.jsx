@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-// import LineGradient from "../components/LineGradient";
+import React from "react";
 import { motion } from "framer-motion";
 import "../index.css";
 import "./countdown.css";
