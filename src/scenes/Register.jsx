@@ -5,13 +5,13 @@ import "../index.css";
 import "./countdown.css";
 
 const Register = () => {
-  const inputDate = "03 AUGUST 2024";
-  const [days, setDays] = useState(0);
-  const [hours, setHours] = useState(0);
-  const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeconds] = useState(0);
+  // const inputDate = "03 AUGUST 2024";
+  // const [days, setDays] = useState(0);
+  // const [hours, setHours] = useState(0);
+  // const [minutes, setMinutes] = useState(0);
+  // const [seconds, setSeconds] = useState(0);
   // const [inputDate, setInputDate] = useState("25 MARCH 2024");
-  const [currentDate, setCurrentDate] = useState(inputDate);
+  // const [currentDate, setCurrentDate] = useState(inputDate);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
