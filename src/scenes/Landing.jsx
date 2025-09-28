@@ -54,7 +54,7 @@ const Landing = ({ setSelectedPage }) => {
               Combat
             </span> */}
           </p>
-          <div className="text-4xl !text-center">Robot Battle <br /> 2024</div>
+          <div className="text-4xl !text-center">Robot Battle <br /> 2025</div>
           <p className="mt-5 mb-7 text-sm !text-center md:text-start">
           Organized by Mechatronics Technology Students Society of University of Sri Jayewardenepura.
           </p>

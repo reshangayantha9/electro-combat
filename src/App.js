@@ -59,7 +59,7 @@ function App() {
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
-          onViewportEnter={() => setSelectedPage("register")}
+          onViewportEnter={() => setSelectedPage("registration")}
         >
           <Register/>
         </motion.div>
